@@ -10,20 +10,22 @@
 
 ## Requirements
 
-- [Node](https://nodejs.org)
+- [node.js >= 7](https://nodejs.org)
+- [npm](https://www.npmjs.com/)
 
-## Install
+## Getting Started
+### 1. Install the dependencies 
 
 `$ npm install`
 
-### Run 
+### 2.a. Development purpose
 
 `$ npm run dev`
 
-### Build
+### 2.b. Build
 
 `$ npm run build`
 
-### Test
+### 2.c. Test
 
 `$ npm run test`
