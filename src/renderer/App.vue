@@ -11,5 +11,17 @@
 </script>
 
 <style>
-  /* CSS */
+  body {
+    background-color: #535760;
+  }
+
+  .choice-button {
+    height: 10vh;
+  }
+
+  img.logo {
+    margin-top: 4em;
+    filter: grayscale(0.3);
+  }
+
 </style>
