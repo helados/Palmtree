@@ -47,6 +47,7 @@
     user-select: none;
     -webkit-user-select: none;
     -webkit-app-region: drag;
+    cursor: pointer;
   }
 
 </style>

@@ -2,7 +2,7 @@
     <body>
     <div class="ui aligned center aligned grid">
         <div class="column">
-            <img class="logo-header" src="static/img/logo_head.png">
+            <img @click="onHome" class="logo-header" src="static/img/logo_head.png">
             <div style="margin-bottom:10vh"></div>
         </div>
     </div>
@@ -14,6 +14,10 @@
   export default {
     name: 'editor-page',
     components: { },
-    methods: { }
+    methods: {
+      onHome () {
+        this.$router.push({name: 'landing-page'})
+      }
+    }
   }
 </script>
