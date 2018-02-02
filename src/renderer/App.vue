@@ -17,6 +17,7 @@
   }
 
   body.draggable {
+    user-select: none;
     -webkit-user-select: none;
     -webkit-app-region: drag;
   }
@@ -43,6 +44,7 @@
   .logo-header {
     height: 25px;
     margin-top: 0.7em;
+    user-select: none;
     -webkit-user-select: none;
     -webkit-app-region: drag;
   }
