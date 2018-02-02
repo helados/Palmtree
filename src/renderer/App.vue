@@ -40,4 +40,11 @@
     color: white;
   }
 
+  .logo-header {
+    height: 25px;
+    margin-top: 0.7em;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+  }
+
 </style>

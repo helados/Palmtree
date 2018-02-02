@@ -1,5 +1,5 @@
 <template>
-  <body>
+  <body class="draggable">
     <div class="ui aligned center aligned grid">
       <div class="column">
         <img class="logo" src="static/img/logo.png">
@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="copyright">
-        <p>Made with <i class="red heart icon"></i>by &nbsp; <a class="helados" href="https://github.com/helaos">Helados</a></p>
+        <p>Made with <i class="red heart icon"></i>by <a target="_blank" class="helados" href="https://github.com/helados">Helados</a></p>
     </div>
   </body>
 </template>
