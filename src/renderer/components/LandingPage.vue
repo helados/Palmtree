@@ -11,15 +11,13 @@
       <div class="row">
         <div class="column"></div>
         <div class="column">
-          <button class="fluid ui blue button choice-button">New project</button>
+          <button @click="onEditor" class="fluid ui blue button choice-button">New project</button>
         </div>
         <div class="column">
           <button class="fluid ui circle blue button choice-button">Open a project</button>
         </div>
       </div>
     </div>
-
-
     <div class="copyright">
         <p>Made with <i class="red heart icon"></i>by &nbsp; <a class="helados" href="https://github.com/helaos">Helados</a></p>
     </div>
@@ -30,6 +28,10 @@
   export default {
     name: 'landing-page',
     components: { },
-    methods: { }
+    methods: {
+      onEditor () {
+        this.$router.push({name: 'editor-page'})
+      }
+    }
   }
 </script>
