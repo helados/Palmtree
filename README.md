@@ -10,22 +10,29 @@
 
 ## Requirements
 
-- [node.js >= 7](https://nodejs.org)
-- [npm](https://www.npmjs.com/)
+- [Node.js ⩾ 7](https://nodejs.org)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/lang/en/)
 
-## Getting Started
-### 1. Install the dependencies 
 
-`$ npm install`
+## Technology used
+- [Electron](https://electronjs.org/)
+- [Semantic UI](https://semantic-ui.com/)
+- [Vue.js](https://vuejs.org/)
 
-### 2.a. Development purpose
 
+## Installation
+### 1. Clone the repository 
+`$ git clone https://github.com/helados/Palmtree.git my-project`
+
+### 2. Download and install the dependencies 
+`$ cd my-project && npm install`
+
+## Run the project
+### Development purposes
 `$ npm run dev`
 
-### 2.b. Build
-
+### Deploy Palmtree application as an executable
 `$ npm run build`
 
-### 2.c. Test
-
-`$ npm run test`
+## License
+Palmtree is made available under the terms of the Apache 2.0 License ([Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0))
