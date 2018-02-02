@@ -12,16 +12,31 @@
 
 <style>
   body {
+    overflow: hidden;
     background-color: #535760;
   }
 
-  .choice-button {
-    height: 10vh;
-  }
+  .choice-button { height: 10vh; }
 
   img.logo {
+    min-width: 475px;
+    width: 45%;
+    max-width: 670px;
     margin-top: 4em;
     filter: grayscale(0.3);
+  }
+
+  .copyright {
+    position: fixed;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.3em;
+    color: white;
+  }
+
+  a.helados {
+
   }
 
 </style>
