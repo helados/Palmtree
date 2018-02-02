@@ -60,6 +60,7 @@
     "axios": "^0.16.1",
     "semantic-ui-css": "^2.2.14",
     "semantic-ui-vue": "^0.1.7",
+    "vis": "^4.21.0",
     "vue": "^2.3.3",
     "vue-electron": "^1.0.6",
     "vue-router": "^2.5.3",
