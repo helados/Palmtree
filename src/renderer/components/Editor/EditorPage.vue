@@ -6,6 +6,10 @@
             <div style="margin-bottom:10vh"></div>
         </div>
     </div>
+    <div class="ui raised text container segment">
+        <h2 class="ui header">Editor</h2>
+        <network></network>
+    </div>
 
     </body>
 </template>
