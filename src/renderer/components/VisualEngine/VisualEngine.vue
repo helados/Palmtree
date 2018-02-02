@@ -8,7 +8,7 @@
 import vis from 'vis'
 
 export default {
-  name: 'network',
+  name: 'tree',
   components: { },
   data () {
     return {

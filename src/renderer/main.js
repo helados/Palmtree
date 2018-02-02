@@ -9,7 +9,7 @@ import App from './App'
 import router from './router'
 import store from './store'
 
-import network from './components/Network/network'
+import network from './components/VisualEngine/VisualEngine'
 
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
 
@@ -18,7 +18,7 @@ Vue.http = Vue.prototype.$http = axios
 Vue.config.productionTip = false
 
 Vue.use(SuiVue)
-Vue.component('network', Vue.extend(network))
+Vue.component('visual-engine', Vue.extend(network))
 
 /* eslint-disable no-new */
 new Vue({
