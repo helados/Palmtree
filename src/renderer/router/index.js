@@ -13,7 +13,7 @@ export default new Router({
     {
       path: '/editor',
       name: 'editor-page',
-      component: require('@/components/EditorPage').default
+      component: require('@/components/Editor/EditorPage').default
     },
     {
       path: '*',
