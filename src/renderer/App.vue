@@ -16,6 +16,11 @@
     background-color: #535760;
   }
 
+  body.draggable {
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+  }
+
   .choice-button { height: 10vh; }
 
   img.logo {
@@ -33,10 +38,6 @@
     transform: translateX(-50%);
     font-size: 1.3em;
     color: white;
-  }
-
-  a.helados {
-
   }
 
 </style>
