@@ -29,7 +29,7 @@
 
 ## Run the project
 ### Development purposes
-`$ npm run dev`
+`$ npm start`
 
 ### Deploy Palmtree application as an executable
 `$ npm run build`
