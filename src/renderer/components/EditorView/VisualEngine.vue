@@ -11,21 +11,41 @@ export default {
   data () {
     return {
       nodes: [
-        { id: 0, label: 0, x: -147, y: -77 },
-        { id: 1, label: 1, x: -186, y: 88 },
-        { id: 2, label: 2, x: 8, y: 160 },
-        { id: 3, label: 3, x: 159, y: 28 },
-        { id: 4, label: 4, x: 45, y: -111 }
+        { id: 0, label: 'Root' },
+        { id: 1, label: 'Node 1' },
+        { id: 2, label: 'Node 2' },
+        { id: 3, label: 'Child' },
+        { id: 4, label: 'Child' }
       ],
       edges: [
-        { from: 0, to: 1 },
-        { from: 0, to: 2 },
-        { from: 0, to: 3 },
-        { from: 0, to: 4 }
+        { from: 0, to: 1, group: 0 },
+        { from: 0, to: 2, group: 1 },
+        { from: 1, to: 3, group: 1 },
+        { from: 2, to: 4, group: 2 }
       ],
+      physics: {
+        barnesHut: {
+          avoidOverlap: 0.99,
+          gravitationalConstant: -3300,
+          springLength: 150
+        },
+        minVelocity: 0.75,
+        timestep: 0.9,
+        stabilization: {
+          enabled: true,
+          iterations: 1000,
+          updateInterval: 25
+        }
+      },
       options: {
         width: (window.innerWidth - 25) + 'px',
-        height: (window.innerHeight - 75) + 'px'
+        height: (window.innerHeight - 75) + 'px',
+        nodes: {
+          shape: 'box',
+          font: {
+            size: 15
+          }
+        }
       },
       container: '',
       network: null
