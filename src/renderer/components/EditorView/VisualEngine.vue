@@ -19,19 +19,14 @@ export default {
       ],
       edges: [
         { from: 0, to: 1 },
-        { from: 0, to: 1 },
         { from: 0, to: 2 },
         { from: 0, to: 3 },
-        { from: 0, to: 4 },
-        { from: 0, to: 4 },
-        { from: 1, to: 2 },
-        { from: 1, to: 3 },
-        { from: 1, to: 3 },
-        { from: 2, to: 3 },
-        { from: 2, to: 4 },
-        { from: 3, to: 4 }
+        { from: 0, to: 4 }
       ],
-      options: { },
+      options: {
+        width: (window.innerWidth - 25) + 'px',
+        height: (window.innerHeight - 75) + 'px'
+      },
       container: '',
       network: null
     }
