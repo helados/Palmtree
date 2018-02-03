@@ -23,27 +23,23 @@ export default {
         { from: 1, to: 3, group: 1 },
         { from: 2, to: 4, group: 2 }
       ],
-      physics: {
-        barnesHut: {
-          avoidOverlap: 0.99,
-          gravitationalConstant: -3300,
-          springLength: 150
-        },
-        minVelocity: 0.75,
-        timestep: 0.9,
-        stabilization: {
-          enabled: true,
-          iterations: 1000,
-          updateInterval: 25
-        }
-      },
       options: {
         width: (window.innerWidth - 25) + 'px',
         height: (window.innerHeight - 75) + 'px',
+        physics: {
+          enabled: false
+        },
         nodes: {
           shape: 'box',
           font: {
             size: 15
+          }
+        },
+        edges: {
+          smooth: {
+            enabled: false // setting to true enables curved lines
+            // type: "dynamic",
+            // roundness: 0.5
           }
         }
       },
