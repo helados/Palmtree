@@ -26,7 +26,7 @@
 
 <script>
   export default {
-    name: 'landing-page',
+    name: 'home',
     components: { },
     methods: {
       onEditor () {

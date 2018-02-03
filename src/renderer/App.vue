@@ -50,4 +50,11 @@
     cursor: pointer;
   }
 
+  .tree {
+    margin-top: 20em;
+    height: 70vh;
+  }
+
+
+
 </style>

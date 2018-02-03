@@ -9,7 +9,8 @@ import App from './App'
 import router from './router'
 import store from './store'
 
-import network from './components/VisualEngine/VisualEngine'
+import toolbar from './components/EditorView/Toolbar'
+import network from './components/EditorView/VisualEngine'
 
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
 
@@ -18,6 +19,7 @@ Vue.http = Vue.prototype.$http = axios
 Vue.config.productionTip = false
 
 Vue.use(SuiVue)
+Vue.component('toolbar', Vue.extend(toolbar))
 Vue.component('visual-engine', Vue.extend(network))
 
 /* eslint-disable no-new */

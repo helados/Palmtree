@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <div id='mynetwork'></div>
-    </div>
+    <div id='tree'></div>
 </template>
 
 <script>
@@ -49,7 +47,7 @@ export default {
   },
 
   mounted () {
-    this.container = document.getElementById('mynetwork')
+    this.container = document.getElementById('tree')
     this.network = new vis.Network(
       this.container,
       this.graph_data,
