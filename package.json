@@ -62,6 +62,7 @@
     "semantic-ui-vue": "^0.1.7",
     "vis": "^4.21.0",
     "vue": "^2.3.3",
+    "vue-context-menu": "^2.0.6",
     "vue-electron": "^1.0.6",
     "vue-router": "^2.5.3",
     "vuex": "^2.3.1"
