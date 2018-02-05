@@ -84,7 +84,7 @@ function startMain () {
     const compiler = webpack(mainConfig)
 
     compiler.plugin('watch-run', (compilation, done) => {
-      logStats('Main', chalk.white.bold('compiling...'))
+      logStats('Main', chalk.white.bold('Assemblying some leafs to the tree...'))
       hotMiddleware.publish({ action: 'compiling' })
       done()
     })
@@ -149,18 +149,18 @@ function greeting () {
   const cols = process.stdout.columns
   let text = ''
 
-  if (cols > 104) text = 'electron-vue'
-  else if (cols > 76) text = 'electron-|vue'
+  if (cols > 104) text = 'Palmtree - XML Editor'
+  else if (cols > 76) text = 'Palmtree'
   else text = false
 
   if (text) {
     say(text, {
-      colors: ['yellow'],
-      font: 'simple3d',
+      colors: ['magenta'],
+      font: 'block',
       space: false
     })
-  } else console.log(chalk.yellow.bold('\n  electron-vue'))
-  console.log(chalk.blue('  getting ready...') + '\n')
+  } else console.log(chalk.yellow.bold('\n  palmtree'))
+  console.log(chalk.magenta('An Helados software - Creator of swetness tools.') + '\n')
 }
 
 function init () {
