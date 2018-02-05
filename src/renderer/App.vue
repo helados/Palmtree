@@ -16,7 +16,7 @@
     background-color: #535760;
   }
 
-  body.draggable {
+  .draggable {
     user-select: none;
     -webkit-user-select: none;
     -webkit-app-region: drag;
@@ -50,5 +50,11 @@
     cursor: pointer;
   }
 
+  .ctx-menu {
+    padding: 0;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
 
 </style>
