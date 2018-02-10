@@ -57,4 +57,8 @@
     box-shadow: none !important;
   }
 
+  .context-menu {
+    min-width: 230px
+  }
+
 </style>

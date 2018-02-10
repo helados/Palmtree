@@ -3,17 +3,14 @@
         <toolbar></toolbar>
         <visual-engine></visual-engine>
         <context-menu id="context-menu" ref="ctxMenu">
-            <div class="fluid ui vertical buttons">
-                <button class="ui labeled icon button">
-                    <i class="code icon"></i>
-                    Add a node
+            <div class="context-menu fluid ui vertical buttons">
+                <button id="add-node" class="ui button">
+                    Add a node element
                 </button>
-                <button class="ui labeled icon button">
-                    <i class="add icon"></i>
-                    Add a child
+                <button id="add-child" class="ui button">
+                    Add a child element
                 </button>
-                <button class="ui labeled icon button">
-                    <i class="trash icon"></i>
+                <button id="delete" class="ui button">
                     Delete
                 </button>
             </div>
